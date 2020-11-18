@@ -72,7 +72,7 @@ static id _instance;
     }
     return YES;
   }
-  return NO;
+  return YES;
 }
 
 - (void)handleMethodCall:(FlutterMethodCall *)call result:(FlutterResult)result {
